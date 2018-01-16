@@ -1,9 +1,6 @@
 package ru.rtsoft.qa.prospector.helpers;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import ru.rtsoft.qa.prospector.application.Application;
 
 import java.io.File;
@@ -58,7 +55,7 @@ public class HelperBase {
     }
   }
 
-  public boolean isElementPresent(By locator) {
+  public boolean isElementPresent(By locator) { // функция наличия элемента при использовании неявного ожидания
     try {
       driver.findElement(locator);
       return true;
@@ -67,9 +64,18 @@ public class HelperBase {
     }
   }
 
+  public boolean isElementPresentExplicit(By locator) {  //функция наличия элемента при использовании явного ожидания локатора
+    try {
+      app.wait.until((WebDriver d) -> d.findElement(locator));
+      return true;
+    } catch (TimeoutException ex) {
+      return false;
+    }
+  }
+
+
   public boolean isElementChecked(By locator) {
     isElementPresent(locator);
-    //input[type="checkbox"][ng-model^="scope.SummaryConfiguration"] локаторы для чекбоксов
     return Objects.equals(driver.findElement(locator).getAttribute("checked"), "true");  // аналогично следующим, упрощено студией
   }
 

@@ -1,6 +1,8 @@
 package ru.rtsoft.qa.prospector.tests;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import ru.rtsoft.qa.prospector.application.Application;
@@ -25,5 +27,9 @@ public class TestBase {
 
   public static Application getApp() {
     return app;
+  }
+
+  protected void waitLoadingStartPage() {
+    app.wait.until(ExpectedConditions.numberOfElementsToBe(By.cssSelector(".pro-page-summary-section-title.inline"), 4));
   }
 }
