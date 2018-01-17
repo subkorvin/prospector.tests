@@ -26,10 +26,6 @@ public class Page {
     wait = new WebDriverWait(driver, 10);
   }
 
-  public void mainMenuButtonPresentCheck(HelperBase helperBase) {
-    assertTrue(helperBase.isElementPresent(By.cssSelector("#nes-button")));
-  }
-
   public void sidePanelsPresent() {
     List<WebElement> panels = app.driver.findElements(By.cssSelector("div[class='header']>span[class='text']"));
     List<String> expected = Arrays.asList("Filters", "System");
@@ -52,55 +48,69 @@ public class Page {
     assertEquals(expected, actual);
   }
 
-  public void rightPanelSummaryLinkPresentCheck(HelperBase helperBase){
-    assertTrue(helperBase.isElementPresent(By.cssSelector("a[href='#/CC/Summary']")));
+  public WebElement mainMenuButton(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("#nes-button"));
   }
 
-  public void rightPanelGatewaysLinkPresentCheck(HelperBase helperBase){
-    assertTrue(helperBase.isElementPresent(By.cssSelector("a[href='#/CC/DataConcentrators']")));
+  public WebElement rightPanelSummaryLink(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("a[href='#/CC/Summary']"));
   }
 
-  public void rightPanelMetersLinkPresentCheck(HelperBase helperBase) {
-    assertTrue(helperBase.isElementPresent(By.cssSelector("a[href='#/CC/Meters']")));
+  public WebElement rightPanelGatewaysLink(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("a[href='#/CC/DataConcentrators']"));
   }
 
-  public void rightPanelMBusesLinkPresentCheck(HelperBase helperBase) {
-    assertTrue(helperBase.isElementPresent(By.cssSelector("a[href='#/CC/Mbuses']")));
+  public WebElement rightPanelMetersLink(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("a[href='#/CC/Meters']"));
   }
 
-  public void rightPanelMEPsLinkPresentCheck(HelperBase helperBase) {
-    assertTrue(helperBase.isElementPresent(By.cssSelector("a[href='#/CC/Meps']")));
+  public WebElement rightPanelMBusesLink(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("a[href='#/CC/Mbuses']"));
   }
 
-  public void rightPanelDiscoveredMetersLinkPresentCheck(HelperBase helperBase) {
-    assertTrue(helperBase.isElementPresent(By.cssSelector("a[href='#/CC/DiscoveredMeters']")));
+  public WebElement rightPanelMEPsLink(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("a[href='#/CC/Meps']"));
   }
 
-  public void rightPanelUnknkownGatewaysLinkPresentCheck(HelperBase helperBase) {
-    assertTrue(helperBase.isElementPresent(By.cssSelector("a[href='#/CC/UnknownDC']")));
+  public WebElement rightPanelDiscoveredMetersLink(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("a[href='#/CC/DiscoveredMeters']"));
   }
 
-  public void rightPanelEventsLinkPresentCheck(HelperBase helperBase) {
-    assertTrue(helperBase.isElementPresent(By.cssSelector("a[href='#/CC/Events']")));
+  public WebElement rightPanelUnknkownGatewaysLink(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("a[href='#/CC/UnknownDC']"));
   }
 
-  public void rightPanelDeployedDevicesLinkPresentCheck(HelperBase helperBase) {
-    assertTrue(helperBase.isElementPresent(By.cssSelector("a[href='#/CC/DeployedDevices']")));
+  public WebElement rightPanelEventsLink(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("a[href='#/CC/Events']"));
   }
 
-  public void refreshButtonPresentCheck(HelperBase helperBase){
-    assertTrue(helperBase.isElementPresent(By.cssSelector("#refresh")));
+  public WebElement rightPanelDeployedDevicesLink(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("a[href='#/CC/DeployedDevices']"));
   }
 
-  public void languageSwitcherPresentCheck(HelperBase helperBase){
-    assertTrue(helperBase.isElementPresent(By.cssSelector("li:nth-of-type(2) .pro-dropdown-toggle")));
+  public WebElement refreshButton(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("#refresh"));
   }
 
-  public void userPreferenceTogglePresentCheck(HelperBase helperBase){
-    assertTrue(helperBase.isElementPresent(By.cssSelector("li:nth-of-type(3) .pro-dropdown-toggle")));
+  public WebElement languageSwitcher(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("li:nth-of-type(2) .pro-dropdown-toggle"));
   }
 
-  public void helpButtonPresentCheck(HelperBase helperBase){
-    assertTrue(helperBase.isElementPresent(By.cssSelector(".pro-navbar-button.pro-icon.pro-icon-help")));
+  public WebElement userPreferenceToggle(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("li:nth-of-type(3) .pro-dropdown-toggle"));
   }
+
+  public WebElement helpButton(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector(".pro-navbar-button.pro-icon.pro-icon-help"));
+  }
+
+  public WebElement leftPanelToggle(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("div[ng-click='scope.toggleLeftSidebar()']"));
+  }
+
+  public WebElement rightPanelToggle(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("div[ng-click='scope.toggleRightSidebar()']"));
+  }
+
+
 }

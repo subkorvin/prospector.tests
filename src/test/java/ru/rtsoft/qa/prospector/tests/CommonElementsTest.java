@@ -26,21 +26,21 @@ public class CommonElementsTest extends TestBase {
   public void commonElementsPresenceCheck() {
     HelperBase helperBase = new HelperBase(app);
     Page page = new Page(app);
-    page.mainMenuButtonPresentCheck(helperBase);
+    helperBase.isElementPresent(page.mainMenuButton(helperBase));
     page.sidePanelsPresent();
     page.leftPanelCheck();
-    page.rightPanelSummaryLinkPresentCheck(helperBase);
-    page.rightPanelGatewaysLinkPresentCheck(helperBase);
-    page.rightPanelMetersLinkPresentCheck(helperBase);
-    page.rightPanelMBusesLinkPresentCheck(helperBase);
-    page.rightPanelMEPsLinkPresentCheck(helperBase);
-    page.rightPanelDiscoveredMetersLinkPresentCheck(helperBase);
-    page.rightPanelUnknkownGatewaysLinkPresentCheck(helperBase);
-    page.rightPanelEventsLinkPresentCheck(helperBase);
-    page.rightPanelDeployedDevicesLinkPresentCheck(helperBase);
-    page.refreshButtonPresentCheck(helperBase);
-    page.languageSwitcherPresentCheck(helperBase);
-    page.userPreferenceTogglePresentCheck(helperBase);
-    page.helpButtonPresentCheck(helperBase);
+    helperBase.isElementPresent(page.rightPanelSummaryLink(helperBase));
+    helperBase.isElementPresent(page.rightPanelGatewaysLink(helperBase));
+    helperBase.isElementPresent(page.rightPanelMetersLink(helperBase));
+    helperBase.isElementPresent(page.rightPanelMBusesLink(helperBase));
+    helperBase.isElementPresent(page.rightPanelMEPsLink(helperBase));
+    helperBase.isElementPresent(page.rightPanelDiscoveredMetersLink(helperBase));
+    helperBase.isElementPresent(page.rightPanelUnknkownGatewaysLink(helperBase));
+    helperBase.isElementPresent(page.rightPanelEventsLink(helperBase));
+    helperBase.isElementPresent(page.rightPanelDeployedDevicesLink(helperBase));
+    helperBase.isElementPresent(page.refreshButton(helperBase));
+    helperBase.isElementPresent(page.languageSwitcher(helperBase));
+    helperBase.isElementPresent(page.userPreferenceToggle(helperBase));
+    helperBase.isElementPresent(page.helpButton(helperBase));
   }
 }

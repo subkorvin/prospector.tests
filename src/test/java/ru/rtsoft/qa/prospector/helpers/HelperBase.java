@@ -64,6 +64,14 @@ public class HelperBase {
     }
   }
 
+  public boolean isElementPresent(WebElement webElement) { // функция наличия элемента при использовании неявного ожидания
+    try {
+      return true;
+    } catch (NoSuchElementException ex) {
+      return false;
+    }
+  }
+
   public boolean isElementPresentExplicit(By locator) {  //функция наличия элемента при использовании явного ожидания локатора
     try {
       app.wait.until((WebDriver d) -> d.findElement(locator));
