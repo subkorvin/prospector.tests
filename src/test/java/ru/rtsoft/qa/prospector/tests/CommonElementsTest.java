@@ -10,7 +10,7 @@ import ru.rtsoft.qa.prospector.pages.Page;
 public class CommonElementsTest extends TestBase {
 
   @BeforeClass
-  public void login() throws InterruptedException {
+  public void login() {
     app.session().loginAsAdmin();
     waitLoadingStartPage();
   }

@@ -37,7 +37,7 @@ public class Page {
     assertEquals(expected, actual);
   }
 
-  public void leftPanelCheck(){
+  public void leftPanelCheck() {
     List<WebElement> nodes = app.driver.findElements(By.cssSelector(".cell.text"));
     List<String> expected = Arrays.asList("Hierarchy", "Attributes");
     List<String> actual = new ArrayList<>();
@@ -52,11 +52,11 @@ public class Page {
     return app.driver.findElement(By.cssSelector("#nes-button"));
   }
 
-  public WebElement rightPanelSummaryLink(HelperBase helperBase){
+  public WebElement rightPanelSummaryLink(HelperBase helperBase) {
     return app.driver.findElement(By.cssSelector("a[href='#/CC/Summary']"));
   }
 
-  public WebElement rightPanelGatewaysLink(HelperBase helperBase){
+  public WebElement rightPanelGatewaysLink(HelperBase helperBase) {
     return app.driver.findElement(By.cssSelector("a[href='#/CC/DataConcentrators']"));
   }
 
@@ -88,29 +88,59 @@ public class Page {
     return app.driver.findElement(By.cssSelector("a[href='#/CC/DeployedDevices']"));
   }
 
-  public WebElement refreshButton(HelperBase helperBase){
+  public WebElement refreshButton(HelperBase helperBase) {
     return app.driver.findElement(By.cssSelector("#refresh"));
   }
 
-  public WebElement languageSwitcher(HelperBase helperBase){
+  public WebElement languageSwitcher(HelperBase helperBase) {
     return app.driver.findElement(By.cssSelector("li:nth-of-type(2) .pro-dropdown-toggle"));
   }
 
-  public WebElement userPreferenceToggle(HelperBase helperBase){
+  public WebElement userPreferenceToggle(HelperBase helperBase) {
     return app.driver.findElement(By.cssSelector("li:nth-of-type(3) .pro-dropdown-toggle"));
   }
 
-  public WebElement helpButton(HelperBase helperBase){
+  public WebElement helpButton(HelperBase helperBase) {
     return app.driver.findElement(By.cssSelector(".pro-navbar-button.pro-icon.pro-icon-help"));
   }
 
-  public WebElement leftPanelToggle(HelperBase helperBase){
+  public WebElement leftPanelToggle(HelperBase helperBase) {
     return app.driver.findElement(By.cssSelector("div[ng-click='scope.toggleLeftSidebar()']"));
   }
 
-  public WebElement rightPanelToggle(HelperBase helperBase){
+  public WebElement rightPanelToggle(HelperBase helperBase) {
     return app.driver.findElement(By.cssSelector("div[ng-click='scope.toggleRightSidebar()']"));
   }
 
+  public WebElement hierarchyShowAllToggle(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("div[ng-click='scope.discardHierarchyFilter()']"));
+  }
 
+  public WebElement hierarchyFilteredByToggle(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector("div[ng-click='scope.applyHierarchyFilterDefault()']"));
+  }
+
+  public WebElement attributesConfigButton(HelperBase helperBase) {
+    return app.driver.findElement(By.cssSelector(".cell.configure-button"));
+  }
+
+  public WebElement attributesDuplicateButton(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("div[ng-click='scope.duplicateAttributeInPane()']"));
+  }
+
+  public WebElement attributesRemoveButton(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("div[ng-click='scope.deleteAttributeInPane()']"));
+  }
+
+  public WebElement attributesAndConditionButton(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("div[ng-click='scope.attributeFilterChangeCondition(0)']"));
+  }
+
+  public WebElement attributesOrConditionButton(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("div[ng-click='scope.attributeFilterChangeCondition(1)']"));
+  }
+
+  public WebElement attributesApplyButton(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("div[ng-click='scope.applyAttributesFilter()']"));
+  }
 }
