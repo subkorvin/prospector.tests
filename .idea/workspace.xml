@@ -39,7 +39,7 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="345">
               <caret line="89" column="46" lean-forward="false" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,15 +50,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonElementsTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CommonElementsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/tests/CommonElementsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="138">
+              <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +67,8 @@
       <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/tests/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="244">
+              <caret line="36" column="119" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#632#633#0" expanded="true" />
@@ -82,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/helpers/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="11" />
+              <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#480#481#0" expanded="true" />
@@ -95,7 +95,7 @@
       <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/pages/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-488">
+            <state relative-caret-position="-1137">
               <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -106,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/pages/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="289" column="0" lean-forward="true" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+            <state relative-caret-position="-555">
+              <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#291#292#0" expanded="true" />
@@ -458,16 +458,16 @@
         <option value="$PROJECT_DIR$/src/test/resources/local.properties" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/application/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/helpers/HelperBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/tests/CommonElementsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/pages/Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/tests/test.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/pages/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/tests/CommonElementsTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="70" />
-    <option name="y" value="51" />
+    <option name="x" value="-207" />
+    <option name="y" value="1" />
     <option name="width" value="1936" />
     <option name="height" value="1092" />
   </component>
@@ -586,7 +586,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.test.test">
+  <component name="RunManager" selected="TestNG.CommonElementsTest.commonElementsPresenceCheck">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -770,8 +770,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.test.test" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CommonElementsTest.commonElementsPresenceCheck" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CommonElementsTest.commonElementsPresenceCheck" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.test.test" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.CommonElementsTest" />
       </list>
     </recent_temporary>
@@ -793,35 +793,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_test - 2018.01.17 at 15h 18m 43s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 11h 03m 54s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_test - 2018.01.17 at 15h 19m 40s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 11h 05m 25s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_test - 2018.01.17 at 15h 22m 28s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 11h 06m 16s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_test - 2018.01.19 at 17h 50m 21s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 11h 06m 48s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_test - 2018.01.19 at 17h 53m 02s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 11h 08m 02s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_test - 2018.01.19 at 17h 53m 52s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 12h 32m 15s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_test - 2018.01.19 at 17h 56m 22s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 12h 39m 00s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_test - 2018.01.19 at 17h 57m 17s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 12h 59m 36s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_test - 2018.01.19 at 17h 58m 37s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 13h 18m 21s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test_test - 2018.01.19 at 17h 59m 53s.xml">
-      <configuration name="test.test" configurationId="TestNG" />
+    <history-entry file="CommonElementsTest_commonElementsPresenceCheck - 2018.01.22 at 13h 46m 29s.xml">
+      <configuration name="CommonElementsTest.commonElementsPresenceCheck" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -837,7 +837,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -850,7 +850,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -869,31 +869,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/pages/Page.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/helpers/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/pages/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2227">
@@ -972,8 +955,8 @@
           <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1068,8 +1051,8 @@
           <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1200,8 +1183,8 @@
           <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1260,8 +1243,8 @@
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1349,30 +1332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="89" column="46" lean-forward="false" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/helpers/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/helpers/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1397,22 +1356,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/tests/CommonElementsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.8.1/473d7a8289d2dc7e9b0404ca276d63c1ef3a6cea/selenium-api-3.8.1-sources.jar!/org/openqa/selenium/By.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="89" column="46" lean-forward="false" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/helpers/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/tests/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="36" column="119" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1425,21 +1416,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/tests/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/pages/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
+        <state relative-caret-position="-1137">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1451,12 +1430,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/pages/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="289" column="0" lean-forward="true" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+        <state relative-caret-position="-555">
+          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#291#292#0" expanded="true" />
             <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rtsoft/qa/prospector/tests/CommonElementsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
           </folding>
         </state>
       </provider>

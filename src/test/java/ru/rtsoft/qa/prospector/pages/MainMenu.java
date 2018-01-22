@@ -15,6 +15,10 @@ public class MainMenu extends Page {
     return app.driver.findElement(By.cssSelector("#nes-menu .parent-menu>li:nth-of-type(1)"));
   }
 
+  public WebElement mainMenuCloseButton(HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector(".nes-menu-closebutton.pro-fonticon.pro-fonticon-remove"));
+  }
+
   public WebElement mainMenuImportItem(HelperBase helperBase){
     return app.driver.findElement(By.cssSelector("#nes-menu .parent-menu>li:nth-of-type(2)"));
   }
@@ -167,7 +171,7 @@ public class MainMenu extends Page {
     return app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(1)']>li:nth-of-type(2)"));
   }
 
-  public WebElement mainMenuLogsEMLogSubItem (HelperBase helperBase){
+  public WebElement mainMenuLogsRetrieveEMLogSubItem (HelperBase helperBase){
     return app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(1)']>li:nth-of-type(3)"));
   }
 
@@ -285,6 +289,18 @@ public class MainMenu extends Page {
 
   public WebElement mainMenuConfigurationDeviceTemplatesSelfReadRetrievalConfigurationSubItem (HelperBase helperBase){
     return app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(2)']>li:nth-of-type(18)"));
+  }
+
+  public WebElement mainMenuImportFileManageImportKeysSubItem (HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(2)']>li:nth-of-type(1)"));
+  }
+
+  public WebElement mainMenuImportFileManageExportKeysSubItem (HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(2)']>li:nth-of-type(2)"));
+  }
+
+  public WebElement mainMenuImportFileImportFileSubItem (HelperBase helperBase){
+    return app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(2)']>li:nth-of-type(3)"));
   }
 
 

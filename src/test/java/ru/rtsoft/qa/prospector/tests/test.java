@@ -31,16 +31,22 @@ public class test extends TestBase {
     Page page = new Page(app);
     MainMenu mainMenu = new MainMenu(app);
 
-    mainMenu.mainMenuConfigurationFileManagerSubItem(helperBase).click();
-
-//    new Actions(app.driver).moveToElement(mainMenu.mainMenuConfigurationItem(helperBase)).
-//            moveToElement(app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(1)']>li:nth-of-type(1)"))).pause(1000).
-//            moveToElement(app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(1)']>li:nth-of-type(2)"))).pause(1000).
-//            moveToElement(app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(1)']>li:nth-of-type(3)"))).pause(1000).
-//            moveToElement(app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(1)']>li:nth-of-type(4)"))).pause(1000).
-//            moveToElement(app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(1)']>li:nth-of-type(5)"))).pause(1000).
-//            moveToElement(app.driver.findElement(By.cssSelector("ul[ng-mouseleave='closeSubMenu(1)']>li:nth-of-type(6)"))).pause(1000).
-//            perform();
+    page.mainMenuButton(helperBase).click();
+    new Actions(app.driver).moveToElement(mainMenu.mainMenuConfigurationItem(helperBase)).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesSubItem(helperBase)).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesEventConfigurationSubItem(helperBase)).pause(1000).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesSubItem(helperBase)).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesWANConfigurationSubItem(helperBase)).pause(1000).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesSubItem(helperBase)).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesPhaseConfigurationSubItem(helperBase)).pause(1000).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesSubItem(helperBase)).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesLowVoltageGridConfigurationSubItem(helperBase)).pause(1000).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesSubItem(helperBase)).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesProcessConfigurationSubItem(helperBase)).pause(1000).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesSubItem(helperBase)).
+            moveToElement(mainMenu.mainMenuConfigurationDCNTemplatesParameterlessCommandsSubItem(helperBase)).
+//            pause(1000).
+            perform();
 
 //    page.mainMenuConfigurationItem(helperBase).click();
 //app.driver.findElement(By.cssSelector(""))
