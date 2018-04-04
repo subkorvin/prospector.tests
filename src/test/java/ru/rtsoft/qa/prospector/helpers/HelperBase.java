@@ -95,7 +95,6 @@ public class HelperBase {
   }
 
   public boolean isHierarchySelected(){
-    driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
     if (isElementPresent(By.cssSelector("div[class='part right active'][ng-click='scope.applyHierarchyFilterDefault()']"))){
       return true;
     } else return false;

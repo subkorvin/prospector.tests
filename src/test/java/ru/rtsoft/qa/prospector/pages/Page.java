@@ -18,6 +18,7 @@ public class Page {
   protected Application app;
   protected WebDriver driver;
   protected WebDriverWait wait;
+  protected HelperBase helperBase;
 
   public Page(Application app) {
     this.app = app;
@@ -141,5 +142,21 @@ public class Page {
 
   public WebElement attributesApplyButton(HelperBase helperBase){
     return app.driver.findElement(By.cssSelector("div[ng-click='scope.applyAttributesFilter()']"));
+  }
+
+  public String getHierarchyLevel(){
+    String hierarchyLevel = null;
+    if (helperBase.isHierarchySelected()) {
+      hierarchyLevel = app.driver.findElement(By.xpath("//div[@ng-model='scope.hierarchies.activeHierarchy']//span[@ng-bind='$select.selected.Name']")).getAttribute("innerHTML");
+      }
+      return hierarchyLevel;
+  }
+
+  public String getHierarchyMember(){
+    String hierarchyMember = null;
+    if (helperBase.isHierarchySelected()){
+      hierarchyMember = app.driver.findElement(By.xpath("//td[@class='pro-tree-row-title selected']//span[@class='ng-binding']")).getAttribute("title");
+    }
+    return hierarchyMember;
   }
 }

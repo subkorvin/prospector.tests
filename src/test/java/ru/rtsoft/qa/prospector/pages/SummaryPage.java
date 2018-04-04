@@ -101,4 +101,41 @@ public class SummaryPage extends Page {
   public WebElement metersPieChartLegendRemovePending(HelperBase helperBase) {
     return app.driver.findElement(By.cssSelector("td[class='pro-page-summary-chart-legenda cursor-pointer'][title^='Remove Pending:']"));
   }
+
+  public WebElement metersBarChartLegendRegisterReadsAvailable(HelperBase helperBase) {
+    return app.driver.findElement(By.xpath("//span[. = 'Register Reads Available']"));
+  }
+
+  public WebElement metersBarChartLegendRegisterReadsUnavailable(HelperBase helperBase) {
+    return app.driver.findElement(By.xpath("//span[. = 'Register Reads Unavailable']"));
+  }
+
+  public WebElement metersBarChartLegendLPReadsAvailable(HelperBase helperBase) {
+    return app.driver.findElement(By.xpath("//span[. = 'Load Profile Reads Available']"));
+  }
+
+  public WebElement metersBarChartLegendLPReadsUnavailable(HelperBase helperBase) {
+    return app.driver.findElement(By.xpath("//span[. = 'Load Profile Reads Unavailable']"));
+  }
+
+  public WebElement eventsPieChartLegendCritical(HelperBase helperBase) {
+    return app.driver.findElement(By.xpath("//td[. = 'Critical']"));
+  }
+
+  public WebElement eventsPieChartLegendNonCritical(HelperBase helperBase) {
+    return app.driver.findElement(By.xpath("//td[. = 'Non-Critical']"));
+  }
+
+  public WebElement eventsBarChartLegendGatewayEvents(HelperBase helperBase) {
+    return app.driver.findElement(By.xpath("//label[. = 'Gateway Events']"));
+  }
+
+  public WebElement eventsBarChartLegendDeviceEvents(HelperBase helperBase) {
+    return app.driver.findElement(By.xpath("//label[. = 'Device Events']"));
+  }
+
+  public WebElement eventsBarChartLegendSystemEvents(HelperBase helperBase) {
+    return app.driver.findElement(By.xpath("//label[. = 'System Events']"));
+  }
+
 }
